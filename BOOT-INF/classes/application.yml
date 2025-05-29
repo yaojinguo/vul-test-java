@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+    suffix: .html
+
+server:
+  port: 8686
+
+shiro:
+  rememberMe:
+    enable: true
+  cookie:
+    cipherKey: WnOLr4FRRmc7FQkBAcUMJw==
